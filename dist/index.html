@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced To-do-List</title>
+    <link rel="stylesheet" href="./output.css">
+    <script defer src="./main.js"></script>
+</head>
+<body class="bg-gray-950 p-4 sm:p-0 font-sans">
+    <div class="container mx-auto bg-blue-900 mt-8 text-center p-4 rounded md:w-1/2 sm:w-2/3">
+        <form action="/" id="form">
+            <label for="taskinput" class="flex flex-col">
+                <input type="text" name="taskinput" placeholder="Enter your task" class="px-2 py-1 focus:outline-none" id="taskinput">
+                <button class="mt-4 bg-transparent text-gray-200 border-2 border-gray-200 rounded uppercase py-2 hover:bg-gray-200 hover:text-gray-950" type="submit">Add to List</button>
+            </label>
+        </form>
+    </div>
+
+    <div id="task-cont" class="mt-4 container mx-auto sm:w-2/3 md:w-1/2 bg-blue-900 p-4">
+    </div>
+
+</body>
+</html>
